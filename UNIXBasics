@@ -1,0 +1,55 @@
+UNIX - Introduction
+▪ UNIX is an operating system which is a widely used stable, multi-user, multitasking system for servers, desktops and laptops.
+▪ There are many different versions of UNIX, with the same basic core of commands. Ex: Solaris, HP/UX.
+▪ The UNIX operating system is made up of three parts; the kernel, the shelland the programs.
+▪ Kernel of UNIX is the hub of the operating system. It allocates time and memory to programs and handles the file store and communications in response to system calls.
+▪ Shell acts as an interface between the user and the kernel.
+▪ Program is either a file or a process. A process is an executing program identified by a unique PID (process identifier). A file is a collection of data. They are created
+by users using text editors, running compilers etc. 
+
+====================================================================UNIX commands===========================================================================================
+==File System=
+▪ ls: List the contents of the current directory.
+▪ ls –l: In a long format, showing permissions, owner, size, and other file info.
+▪ ls –a: All files, including hidden files (file names that begin with a dot .).
+▪ ls –R: Recursively, for all subdirectories.
+▪ ls –t: In time order (when modified, newest to oldest) rather than in name order.
+▪ ls names: List the contents of the directories
+▪ pwd: Display the name of the current directory, or print working directory.
+▪ gzip filename: Compresses files
+▪ gunzip filename: Uncompresses files compressed by gzip.
+▪ cd: Return to your home directory.
+▪ cd directory: Change directory to make directory your current directory. 
+
+==File/Directory Manipulation=
+▪ compress files: Reduces the size of a file.
+▪ uncompress files: Restores compressed files to their original form.
+▪ cp file1 file2: Copy file(s).
+▪ cp files directory: Copy file(s) into a directory.
+▪ cp -r dir1 dir2: Copy a directory and, recursively, its subdirectories.
+▪ mkdir directory: Create, or make a directory.
+▪ mv file1 file2: Move a file or, if file1 and file2 are in the same directory, rename a file.
+▪ mv files directory: Move files into a directory.
+▪ mv dir1 dir2: If directory dir2 exists, move dir1 into dir2; otherwise, rename dir1 as dir2.
+▪ rm files: Remove (erase) file(s).
+▪ rm -r names: Remove files, directories, and recursively, any subdirectories.
+▪ rmdir directory: Remove directory (directory must be empty).
+▪ chmod: Change the permissions on a file or directory
+
+==Data Manipulation=
+▪ cat files: Concats and display the contents of a file
+▪ grep pattern files: Display all lines in the files that match a pattern.
+▪ more files : Display contents of files one screen at a time.
+▪ sort files: Order the lines in a file or files alphabetically 
+
+==Miscellaneous=
+▪ ps: Displays processes and their corresponding process identification numbers.
+▪ kill pid: Terminates a process by its process identification number.
+▪ ssh hostname : Connect to a remote host using Secure Shell.
+▪ ftp hostname: Download files from a remote host which is set up as an ftp-server.
+▪ logout: Ends your computer session.
+▪ passwd: Starts program to change account password.
+▪ date: shows the current date and time.
+▪ cal: shows a calendar of the current month
+▪ exit: Terminate your current session, or shell
+
